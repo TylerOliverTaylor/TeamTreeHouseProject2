@@ -64,3 +64,9 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+	border: solid black 2px;
+	display: block;
+	text-align: center;
+}
