@@ -65,8 +65,181 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-a{
-	border: solid black 2px;
-	display: block;
+/*-------HEADER-------*/
+
+header{
+	width: 100%;
+	background-color: rgba(240, 239, 239, 0.671);
 	text-align: center;
+	padding-bottom: 3rem;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	padding: 2rem;
+}
+
+header a {
+	display: block;
+	width: 90%;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color:black;
+	background: white;
+	padding: .8rem 0;
+	margin: 5px auto;
+}
+
+.profilepic{
+	width: 65%;
+	padding: 3rem 0;
+}
+
+p {
+	width: 90%;
+	margin: auto;
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+/*-------PORTFOLIO-------*/
+
+.portfolio{
+	width: 100%;
+	text-align: center;
+}
+
+h2{
+	font-size: 2rem;
+	padding: 3rem 0;
+}
+
+img{
+	width: 90%;
+}
+
+.marketing{
+	padding-bottom: 3rem;
+}
+
+.search{
+	padding-bottom: 3rem;
+}
+
+.travel{
+	padding-bottom: 3rem;
+}
+
+.map{
+	padding-bottom: 3rem;
+}
+
+.photo{
+	padding-bottom: 3rem;
+}
+
+.calculator{
+	padding-bottom: 3rem;
+}
+
+.contact{
+	text-align: center;
+	background: rgba(240, 239, 239, 0.671);
+}
+
+.contact p{
+	padding: 1rem;
+	line-height: 1.5;
+}
+
+h3{
+	font-size: 2rem;
+	padding:2rem;
+}
+#bottomborder{
+	border-bottom: solid lightgrey 1px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+/*-------FOOTER-------*/
+
+footer{
+	background-color: rgba(240, 239, 239, 0.671);
+}
+
+footer h3{
+	font-size: 1.5rem;
+	float: left;
+}
+
+footer a{
+	float: right;
+	padding: 2rem;
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
+
+a:hover{
+	color:red;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+@media (min-width: 768px){
+	
+	
+	header h1{
+		font-size: 3rem;
+	}
+
+	header a{
+	display: inline;
+	margin: 2rem;
+	background: none;
+	font-size: 2rem;
+	}
+
+	.profilepic{
+		width: 40%;
+		float: right;
+		padding: 2rem;
+	}
+
+	header p{
+		font-size: 1.9rem;
+		text-align: left;
+		padding-top: 6rem;
+	}
+
+	.marketing{
+		clear: both;
+	}
+	.portfolio{
+		background: pink;
+	}
+	.portfolio{
+		clear: both;
+	}
+	
+	.marketing{
+		clear: both;
+		padding: 0;
+	}
+
+	.marketingbox{
+		width: 50%;
+		float:left;
+	}
+
+	.searchbox{
+		width: 50%;
+		float: left;		
+	}
+
 }
