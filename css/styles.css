@@ -191,6 +191,10 @@ a{
 	color: black;
 }
 
+.exculed{
+	display: none;
+}
+
 @media (min-width: 768px){
 	
 	
@@ -220,9 +224,7 @@ a{
 	.marketing{
 		clear: both;
 	}
-	.portfolio{
-		background: pink;
-	}
+
 	.portfolio{
 		clear: both;
 	}
@@ -242,4 +244,34 @@ a{
 		float: left;		
 	}
 
+	.travel{
+		width: 50%;
+		float: left;
+	}
+
+	.map{
+		width: 50%;
+		float: left;
+	}
+
+	.photo{
+		width: 50%;
+		float:left;
+	}
+	.calculator{
+		width: 50%;
+		float: left;
+	}
+
+	.contact{
+		clear:both;
+	}
+
+	.contact p{
+		width: 50%;
+	}
+
+	.backtotop{
+		display: none;
+	}
 }
