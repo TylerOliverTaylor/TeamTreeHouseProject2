@@ -239,7 +239,7 @@ a{
 		float:left;
 	}
 
-	.searchbox{
+	.search{
 		width: 50%;
 		float: left;		
 	}
@@ -275,3 +275,77 @@ a{
 		display: none;
 	}
 }
+@media (min-width: 1024px){
+
+	header{
+		text-align: left;
+	}
+
+	header h1{
+		margin: 3rem;
+		margin-right: 30rem;
+		display: inline-block;
+	}
+
+	nav{
+		text-align: right;
+		display: inline;
+	}
+
+	nav a{
+		
+		padding: 2rem;
+		width: 12rem;
+	}
+
+	header img{
+		width: 33.33%;
+		margin-right: 3rem;
+		margin-left: 3rem;
+	}
+
+	main{
+		text-align: center;
+
+	}
+	
+
+	.marketingbox{
+		width: 33.33%;
+		float:left;
+		text-align:center;
+		
+	}
+
+	.search{
+		width: 33.33%;
+		float: left;		
+	}
+
+	.travel{
+		width: 33.33%;
+		float: left;
+
+	}
+
+	.map{
+		width: 33.33%;
+		float: left;
+	
+	}
+
+	.photo{
+		width: 33.33%;
+		float:left;
+	}
+	.calculator{
+		width: 33.33%;
+		float: left;
+	}
+	
+	.exculed{
+		display:inline;
+		
+	}
+}
+
