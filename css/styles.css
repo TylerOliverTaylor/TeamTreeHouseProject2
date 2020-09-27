@@ -62,7 +62,7 @@ html{
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 /*-------HEADER-------*/
@@ -274,6 +274,14 @@ a{
 	.backtotop{
 		display: none;
 	}
+	.exculed{
+		display: inline;
+	}
+
+	.exculed a{
+		float: right;
+	}
+
 }
 @media (min-width: 1024px){
 
