@@ -274,12 +274,13 @@ a{
 	.backtotop{
 		display: none;
 	}
-	.exculed{
-		display: inline;
+	.exclued{
+		display: block;
 	}
 
 	.exclued a{
-		float: right;
+		display: block;
+		
 	}
 
 }
